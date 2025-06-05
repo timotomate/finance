@@ -1,7 +1,8 @@
 # 💰 Finance Transaction API(2025.06.05)
 
 Spring Boot와 JPA를 사용한 간단한 금융 거래 관리 API 프로젝트
-사용자(User), 계좌(Account), 거래(Transaction) 데이터를 기반으로 입출금 등록 및 월별 거래 요약을 제공합니다.
+사용자(User), 계좌(Account), 거래(Transaction) 데이터를 기반으로 입출금 등록 및 월별 거래 요약 제공.
+(DTO사용 안 함)
 
 ---
 
@@ -34,6 +35,9 @@ Spring Boot와 JPA를 사용한 간단한 금융 거래 관리 API 프로젝트
 - **Request Params** (x-www-form-urlencoded 또는 JSON):
     - `name` (String) - 사용자 이름
     - `email` (String) - 사용자 이메일
+    - ![image](https://github.com/user-attachments/assets/d87f7cee-7191-4d83-8eee-44d05ef13e92)
+
+
 
 ---
 
@@ -43,6 +47,8 @@ Spring Boot와 JPA를 사용한 간단한 금융 거래 관리 API 프로젝트
     - `userId` (Long) - 사용자 ID
     - `bankName` (String) - 은행 이름
     - `accountNumber` (String) - 계좌 번호
+    - ![image](https://github.com/user-attachments/assets/a5e26d4b-2e3f-48f4-b0ee-69217ced2985)
+
 
 ---
 
@@ -52,6 +58,8 @@ Spring Boot와 JPA를 사용한 간단한 금융 거래 관리 API 프로젝트
     - `accountId` (Long) - 계좌 ID
     - `amount` (Long) - 금액
     - `type` (String) - 거래 타입 (`DEPOSIT` 또는 `WITHDRAWAL`)
+    - ![image](https://github.com/user-attachments/assets/b1c2dd16-6cbd-432f-a4a8-b7430540b0d5)
+
 
 ---
 
