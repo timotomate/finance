@@ -35,3 +35,29 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+*.iml
+.idea/
+out/
+
+# 로그 파일
+*.log
+
+# OS별 불필요 파일
+.DS_Store
+Thumbs.db
+
+# 환경 설정
+application.properties
+application.yml
+
+# Lombok
+*.lombok.log
+
+# 테스트 리포트
+test-output/
